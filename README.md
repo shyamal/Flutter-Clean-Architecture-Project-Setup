@@ -1,6 +1,6 @@
 # employee_info
 
-# Cllean Archtecture -  Flutter project.
+# Clean Archtecture -  Flutter project.
 
 - Test API https://simplejsoncms.com/api/0azu7zw0b3fn
 -  If the user has an internet connection app getting data from the above API else load hard coded data.
