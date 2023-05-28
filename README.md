@@ -1,16 +1,46 @@
 # employee_info
 
-A new Flutter project.
+# Cllean Archtecture -  Flutter project.
 
-## Getting Started
+- Test API https://simplejsoncms.com/api/0azu7zw0b3fn
+-  If the user has an internet connection app getting data from the above API else load hard coded data.
+- Followed Clean Architecture
+- Dependencies
+      get_it: ^7.2.0 
+      equatable: ^2.0.5 
+      intl: ^0.18.0 
+      dartz: ^0.10.1 
+      get: ^4.6.5 
+      http: ^0.13.6 
+      connectivity_plus: ^4.0.1
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Test API Generator:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://simplejsoncms.com/editor/0azu7zw0b3fn
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+{
+  "data": [
+    {
+      "name": "Tiron Perera",
+      "department": "IT",
+      "designation": "Sales",
+      "salary": 100,
+      "employee_id": 1
+    },
+    {
+      "name": "Ometh Randira",
+      "department": "IT",
+      "designation": "Manager",
+      "salary": 200,
+      "employee_id": 1
+    },
+    {
+      "name": "Shyamal Ranjana",
+      "department": "IT",
+      "designation": "Manager",
+      "salary": 100,
+      "employee_id": 1
+    }
+  ]
+}
